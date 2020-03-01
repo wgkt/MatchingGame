@@ -1,0 +1,26 @@
+.toggle-button {
+	-fx-focus-color: transparent;
+	-fx-text-fill: transparent;
+	-fx-font-fize 10px;
+	
+}
+
+.toggle-button:selected{
+	-fx-text-fille: black;
+	-fx-background-color: transparent;
+}
+.toggle-button:disabled{
+	-fx-opacity: 1.0;
+}
+
+.op-match{
+	-fx-background-color: transparent;
+	-fx-text-fill: red;
+	
+}
+
+.my-match{
+	-fx-background-color: transparent;
+	-fx-text-fill: blue;
+	
+}
